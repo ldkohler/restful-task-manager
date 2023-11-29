@@ -1,4 +1,4 @@
-# Simple To-Do List RESTful API for ZenPoint
+# Simple To-Do List RESTful API
 
 ## Overview
 This RESTful API, built using Flask, manages a to-do list. It allows creating, retrieving, updating, and deleting tasks. Each task includes a unique identifier, name, description, completion status, and an optional due date in ISO format (`YYYY-MM-DD`). The API uses a dictionary to store tasks. This approach allows for efficient retrieval, updating, and deletion of tasks by their unique identifiers, compared to a list where each element might need to be iterated over to find a specific task.
